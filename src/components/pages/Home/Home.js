@@ -3,7 +3,14 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div>
+    <div id="body">
+      <div id="header">
+        <a href="../Live/Live.js">Live</a>
+        <a href="./">Inbox</a>
+        <a href="./">About us</a>
+        <a href="./">Contact us</a>
+      </div>
+      <div id="page-header"></div>
       <div id="login-container">
         <input
           id="input-email"
